@@ -1,1 +1,11 @@
-leetcode题解
+## leetcode题解<br>
+### 2019-06-13二叉树部分<br>
+N叉树的层次遍历<br>
+多叉树测试用例的构建<br>
+    
+    {"$id":"1","children":[
+    {"$id":"2","children":[{"$id":"5","children":[],"val":5},{"$id":"6","children":[],"val":6}],"val":3},
+    {"$id":"3","children":[],"val":2},
+    {"$id":"4","children":[],"val":4}],"val":1}
+    
+ 
