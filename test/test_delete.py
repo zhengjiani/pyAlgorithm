@@ -3,7 +3,7 @@
 # @Author  : zhengjiani
 # @Software: PyCharm
 import unittest
-from removenode import LinkedList,Node,remove_node
+from leetcode.removenode import LinkedList,Node,remove_node
 
 class TestDelete(unittest.TestCase):
     def test_delete(self):

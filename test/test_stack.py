@@ -3,7 +3,7 @@
 # @Author  : zhengjiani
 # @Software: PyCharm
 import unittest
-from stack import Stack
+from leetcode.stack1 import Stack
 class TestStack(unittest.TestCase):
 
     def test_init(self):
