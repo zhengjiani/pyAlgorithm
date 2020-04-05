@@ -75,10 +75,12 @@ class Solution3:
         sum = 0
         stack = []
         current = 0
+        # 如果当前高度<栈顶高度，则入栈
         while(current<len(height)):
             # 如果栈不空且当前高度大于栈顶高度就一直循环
             while(len(stack) != 0 and height[current] > height[stack[-1]]):
                 h = height[stack[-1]]
+                # 如果当前高度>栈顶高度，就出栈
                 stack.pop()
                 if len(stack) == 0:
                     break
