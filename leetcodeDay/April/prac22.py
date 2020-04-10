@@ -87,3 +87,5 @@ if __name__ == '__main__':
     print(s.generateParenthesis(n))
     print(s1.generateParenthesis(n))
     print(s2.generateParenthesis(n))
+    # 返回一个具名元组，包含命中次数 hits，未命中次数 misses ，最大缓存数量 maxsize 和 当前缓存大小 currsize
+    print(s.generateParenthesis.cache_info())
