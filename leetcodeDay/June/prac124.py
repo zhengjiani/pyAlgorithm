@@ -16,7 +16,7 @@ class TreeNode:
 class Solution:
     def __init__(self):
         self.maxSum = float('-inf')
-    def maxPathSum(self, root: TreeNode) -> int:
+    def maxPathSum(self, root: TreeNode) -> float:
         def maxGain(node):
             if not node:
                 return 0
@@ -35,5 +35,7 @@ class Solution:
 
 if __name__ == '__main__':
     root = TreeNode(1)
+    root.left = TreeNode(2)
+    root.right = TreeNode(3)
     sl = Solution()
     print(sl.maxPathSum(root))
