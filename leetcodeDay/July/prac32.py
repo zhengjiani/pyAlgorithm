@@ -92,7 +92,7 @@ class Solution4:
 
 
 if __name__ == '__main__':
-    # sl = Solution1()
-    # print(sl.longestValidParentheses("(()"))
-    sl = Solution2()
-    print(sl.longestValidParentheses("(()"))
+    sl = Solution1()
+    print(sl.longestValidParentheses("()(())"))
+    # sl = Solution2()
+    # print(sl.longestValidParentheses("()(()))"))
