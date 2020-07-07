@@ -70,4 +70,7 @@ class Codec:
 if __name__ == '__main__':
     root = TreeNode(1)
     codec = Codec()
+    root.left = TreeNode(2)
+    root.right = TreeNode(3)
+    print(codec.serialize(root))
     print(codec.deserialize(codec.serialize(root)))
